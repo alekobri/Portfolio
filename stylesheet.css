@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch|PT+Sans");
+body {
+  width: 99%;
+  font-family: "PT Sans", sans-serif;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Cabin Sketch", sans-serif;
+  color: white;
+  font-size: 44px;
+  text-shadow: 6px 6px 10px black;
+  margin-bottom: 70px;
+}
+
+.row {
+  padding-top: 45px;
+  padding-bottom: 120px;
+}
+
+#home {
+  background-image: url(https://static.pexels.com/photos/306533/pexels-photo-306533.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.social_media {
+  margin-top: 200px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.btn {
+  width: 132px;
+}
+
+#about {
+  background-image: url(https://wvvi5q-bn1305.files.1drv.com/y4mapq9KiFyeAKFCye08OX6rR5F20CitvMD8shHK7CrbI2YEuWCoY5_ZaUjgW_mnUVUWmdq0pCkawu9xnFE01_ZEM6FMrwhr5c051B6_H6on25VcSj_rWb5FnoqRPZnYIJm-Z9-E028QZ8O1-XNOQsfKyqaDKv2PUtAgMenwoJntHGB6zYAszfWUutaP0vD50np1JxT48YL0QhwVHDrAG3YoA?width=2711&height=1525&cropmode=none);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about_text {
+  padding: 7px 7px 2px 7px;
+  background: #e6f3ff;
+  opacity: 0.7;
+  color: black;
+}
+
+#portfolio {
+  background-image: url(https://images.pexels.com/photos/52910/pexels-photo-52910.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.overlay {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.thumbnail:hover .overlay {
+  opacity: 0.8;
+}
+
+#contact {
+  background-image: url(https://images.pexels.com/photos/331990/pexels-photo-331990.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+
+#contact_form {
+  font-family: "PT Sans", sans-serif;
+  color: white;
+}
+
+.social_media_bot {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.container {
+  background-color: #1a1a1a;
+  width: 101%;
+  color: #f2f2f2;
+}
+
+.container p {
+  margin: 10px 0;
+}
+
+.container a {
+  color: #009900;
+}
+
+.container a:hover {
+  color: #206020;
+}
